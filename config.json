@@ -1,7 +1,7 @@
 {
-    "Prefix": ",", // Your bot's prefix. (example: !!)
-    "Owner": "360465571042820107", // Your Discord ID. (example: 686951405046464534)
+    "Prefix": ",",
+    "Owner": "360465571042820107",
     "Github": "https://github.com/Daynios",
-    "Invite": "", // Your bot's server invite. (example: https://discord.gg/RWSEj6JrjJ)
-    "Server": "" // Your bot's server ID. (example: 785447323156742204)
+    "Invite": "",
+    "Server": ""
 }
