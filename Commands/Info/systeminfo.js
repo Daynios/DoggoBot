@@ -17,12 +17,13 @@ module.exports = {
         const { totalMemMb, usedMemMb } = await mem.info();
 
         const systeminfo = stripIndent`
-        OS        : ${await os.oos()}
-        CPU       : ${cpu.model()}
-        Cores     : ${cpu.count()}
-        CPU Usage : ${await cpu.usage()} %
-        RAM       : ${totalMemMb} MB
-        RAM Usage : ${usedMemMb} MB 
+        OS            : ${await os.oos()}
+        CPU           : ${cpu.model()}
+        Cores         : ${cpu.count()}
+        CPU Usage     : ${await cpu.usage()} %
+        RAM           : ${totalMemMb} MB
+        RAM Usage     : ${usedMemMb} MB 
+        Host Location : United Kingdom
         `;
 
         const embed = new Discord.MessageEmbed()
