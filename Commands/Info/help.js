@@ -29,7 +29,7 @@ module.exports = {
             .addField('Command Modules', `${emoji.Fun} \`${config.Prefix}help fun\`\n${emoji.Info} \`${config.Prefix}help info\`\n${emoji.Moderation} \`${config.Prefix}help mod\`\n${emoji.Utility} \`${config.Prefix}help utility\`\n${emoji.Camera} \`${config.Prefix}help image\`\n${emoji.DoggoLul} \`${config.Prefix}help animals\`\n${emoji.Wink} \`${config.Prefix}help others\`\n${emoji.Misc} \`${config.Prefix}help misc\``)
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
-
+            .setColor(0x9932CC)
             .setTimestamp()
 
             message.channel.send(intro)
@@ -43,6 +43,7 @@ module.exports = {
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
             .setTimestamp()
+            .setColor(0x9932CC)
 
             message.channel.send(fun)
         }
@@ -55,6 +56,7 @@ module.exports = {
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
             .setTimestamp()
+            .setColor(0x9932CC)
 
             message.channel.send(info)
         }
@@ -67,6 +69,7 @@ module.exports = {
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
             .setTimestamp()
+            .setColor(0x9932CC)
 
             message.channel.send(mod)
         }
@@ -79,6 +82,7 @@ module.exports = {
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
             .setTimestamp()
+            .setColor(0x9932CC)
 
             message.channel.send(utility)
         }
@@ -91,6 +95,7 @@ module.exports = {
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
             .setTimestamp()
+            .setColor(0x9932CC)
 
             message.channel.send(image)
         }
@@ -103,6 +108,7 @@ module.exports = {
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
             .setTimestamp()
+            .setColor(0x9932CC)
 
             message.channel.send(animals)
         }
@@ -115,6 +121,7 @@ module.exports = {
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
             .setTimestamp()
+            .setColor(0x9932CC)
 
             message.channel.send(other)
         }
@@ -127,6 +134,7 @@ module.exports = {
             .addField(':notepad_spiral: Note', `For detailed help in a command type:\n\`${config.Prefix}help [Command Name]\``)
             .addField(`${emoji.Link} Useful Links`, `[Join Server](${config.Invite})`)
             .setTimestamp()
+            .setColor(0x9932CC)
 
             message.channel.send(misc)
         }
@@ -146,6 +154,7 @@ module.exports = {
         .addField('Example', `\`\`\`${command.example}\`\`\``, true)
         .addField(`${emoji.Link} Useful Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server}) | [Source Code](${config.Github})`)
         .setTimestamp()
+        .setColor(0x9932CC)
 
         message.channel.send(embed)
     
