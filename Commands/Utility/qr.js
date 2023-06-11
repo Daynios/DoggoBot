@@ -23,7 +23,7 @@ module.exports = {
             const embed = new Discord.MessageEmbed()
             .setTitle('QR Code Made !!')
             .attachFiles(attachment)
-    .setColor(0x9932CC);
+    .setColor(0x9932CC)
             .setImage('attachment://qrcode.png')
             .setFooter(`Requested by ${message.author.username}`,  message.author.displayAvatarURL({ dynamic: true }))
             .setTimestamp()

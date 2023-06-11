@@ -44,7 +44,7 @@ module.exports = {
         .setDescription(href.snippet)
         .setImage(href.pagemap ? href.pagemap.cse_thumbnail[0].src: null)
         .setURL(href.link)
-.setColor(0x9932CC);
+.setColor(0x9932CC)
         .setFooter(`Requested by ${message.author.username}`,  message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp()
 

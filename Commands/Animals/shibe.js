@@ -18,7 +18,7 @@ module.exports = {
             const embed = new Discord.MessageEmbed()
             .setTitle(`${emoji.Doggy} Shibe !! ${emoji.Doggy}`)
             .setImage(img)
-    .setColor(0x9932CC);
+            .setColor(0x9932CC)
             .setFooter(`Requested by ${message.author.username}`,  message.author.displayAvatarURL({ dynamic: true }))
             .setTimestamp()
 

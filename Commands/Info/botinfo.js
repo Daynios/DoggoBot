@@ -46,7 +46,7 @@ module.exports = {
         .addField(`${emoji.BotDev} Developer`, `\`\`\`${Developer.tag} | ${config.Owner}\`\`\``, true)
         .addField(`${emoji.Uptime} Uptime`, `\`\`\`${Uptime}\`\`\``, true)
         .addField(`${emoji.Link} Links`, `[Add Me](${config.Invite}) | [Join Server](${config.Server})`)
-.setColor(0x9932CC);
+.setColor(0x9932CC)
         .setTimestamp()
 
         message.channel.send(embed)

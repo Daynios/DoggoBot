@@ -32,7 +32,7 @@ module.exports = {
         bonk.getBuffer(`image/jpeg`, (err, buffer) => {
             const bonked = new Discord.MessageAttachment(buffer, "bonk.jpeg");
             const embed = new Discord.MessageEmbed()
-      .setColor(0x9932CC);
+      .setColor(0x9932CC)
               .setTitle(`${message.author.username} has bonked ${user.user.username} !!`)
               .attachFiles(bonked)
               .setImage("attachment://bonk.jpeg");

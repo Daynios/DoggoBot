@@ -46,7 +46,7 @@ module.exports = {
         .addField('Bots', `\`${bots}\` Users`, true)
         .addField('Creation Date', `\`${moment(channel.createdAt).format('DD/MMM/YYYY')}\``, true)
         .addField('NSFW ', `\`${NFSW[channel.nsfw]}\``, true)
-.setColor(0x9932CC);
+.setColor(0x9932CC)
         .setTimestamp()
 
         message.channel.send(embed)
