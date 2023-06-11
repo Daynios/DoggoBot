@@ -29,7 +29,7 @@ module.exports = {
         .setTitle(`${emoji.Code} My System Information !!`)
         .setDescription(`\`\`\`yaml\n${systeminfo}\`\`\``)
         .setTimestamp()
-        .setColor(message.guild.me.displayHexColor)
+.setColor(0x9932CC);
 
         message.channel.send(embed)
     }

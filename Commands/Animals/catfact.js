@@ -20,7 +20,7 @@ module.exports = {
     .setDescription(`\`\`\`${fact}\`\`\``)
     .setFooter(`Requested ${message.member.displayName}`,  message.author.displayAvatarURL({ dynamic: true }))
     .setTimestamp()
-    .setColor(0x9932CC );
+    .setColor(0x9932CC)
     message.channel.send(embed);
   }
 }

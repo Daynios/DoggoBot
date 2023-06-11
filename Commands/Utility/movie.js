@@ -26,7 +26,7 @@ module.exports = {
         
         const embed = new Discord.MessageEmbed()
             
-        .setColor(message.guild.me.displayHexColor)
+.setColor(0x9932CC);
         .setTitle(movie.title)
         .setURL(movie.imbdurl)
         .setThumbnail(movie.poster)
