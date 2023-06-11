@@ -8,7 +8,7 @@ module.exports = async (client) => {
     }
         
     process.on('unhandledRejection', err => console.log(err))
-    client.user.setActivity(`${config.Prefix}help | ${client.guilds.cache.size} Servers`, {type: "LISTENING"}, {status: "dnd"})
+    client.user.setActivity(`${config.Prefix}help | ${client.guilds.cache.size} Servers`, {type: "WATCHING"}, {status: "dnd"})
     await console.log(`${client.user.tag} is now conneted to Discord !! Cached ${usersCount} Users`)
     
 }
