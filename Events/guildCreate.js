@@ -6,7 +6,7 @@ const config = require('../config.json');
 
 module.exports =  async (client, guild) => {
     
-    client.user.setActivity(`${config.Prefix}help | ${client.guilds.cache.size} Servers`, {type: "LISTENING"}, {status: "dnd"})
+    client.user.setActivity(`${config.Prefix}help | ${client.guilds.cache.size} Servers`, {type: "WATCHING"}, {status: "dnd"})
 
     const channel = client.channels.cache.get(log.ServerLogs);
       

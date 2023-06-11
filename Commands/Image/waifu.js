@@ -29,7 +29,7 @@ module.exports = {
             embed.setTitle(`${Title}`)
             embed.setURL(`${Url}`)
             embed.setImage(Image)
-            embed.setColor('RANDOM')
+            embed.setColor(0x9932CC)
             embed.setFooter(`👍 ${Upvotes} 👎 ${Downvotes} 💬 ${NumComments}`)
             message.channel.send(embed);
         })
