@@ -25,7 +25,7 @@ module.exports = {
       .addField('User', `\`${message.member.user.tag}\` | \`${message.member.id}\``)
       .addField('Server', `\`${message.guild.name}\` | \`${message.guild.id}\``)
       .setTimestamp()
-      .setColor(9932cc );
+      .setColor(0x9932CC );
 
     Channel.send(Embed);
 

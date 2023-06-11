@@ -28,7 +28,7 @@ module.exports = {
         .setImage(img)
         .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
         .setTimestamp() 
-        .setColor(9932cc );
+        .setColor(0x9932CC );
         await message.channel.send(embed);
 
         } catch (err) {

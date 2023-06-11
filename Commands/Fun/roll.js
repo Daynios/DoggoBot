@@ -20,7 +20,7 @@ module.exports = {
       .setDescription(`${message.member} (\`${message.member.user.tag}\`) You rolled a die and you got **${result}** !!`)
       .setFooter(message.member.displayName,  message.author.displayAvatarURL({ dynamic: true }))
       .setTimestamp()
-      .setColor(9932cc );
+      .setColor(0x9932CC );
      message.channel.send(embed);
     }
 }
